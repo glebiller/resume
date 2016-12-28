@@ -1,0 +1,35 @@
+body a {
+    color: #00bfa5;
+}
+
+.card-header {
+    padding: 40px 20px 20px 20px;
+    border-radius: 2px 2px 0 0;
+}
+.card-header .card-title {
+    font-size: 2.125rem;
+}
+
+.profile-item-icon {
+    font-size: 1.64rem;
+    line-height: 110%;
+    margin: 0.82rem 0 0.656rem 0;
+}
+
+.section-icon {
+    font-size: 2.92rem;
+    line-height: 110%;
+    margin: 1.46rem 0 1.168rem 0;
+    font-weight: 400;
+}
+
+.work-location {
+    font-size: 1rem;
+}
+
+.small-chip {
+    height: 18px;
+    line-height: 18px;
+    font-size: 11px;
+    font-weight: 500;
+}
