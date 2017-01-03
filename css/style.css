@@ -5,7 +5,7 @@ body a {
 .card-header {
     padding: 20px;
     border-radius: 2px 2px 0 0;
-    background: url(bg3.jpg);
+    background: url(../img/bg3.jpg);
     background-size: cover;
 }
 .card-header .card-title {
@@ -30,8 +30,10 @@ body a {
 }
 
 .small-chip {
-    height: 18px;
-    line-height: 18px;
-    font-size: 11px;
+    height: 1.125rem;
+    line-height: 1.125rem;
+    font-size: 0.6875rem;
     font-weight: 500;
+    padding: 0 0.75rem;
+    margin-bottom: 0px;
 }
