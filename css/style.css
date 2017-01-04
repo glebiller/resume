@@ -37,3 +37,7 @@ body a {
     padding: 0 0.75rem;
     margin-bottom: 0px;
 }
+
+.author {
+    font-size: 75%;
+}
