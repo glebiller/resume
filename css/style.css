@@ -40,3 +40,10 @@ body a {
 .author {
     font-size: 75%;
 }
+
+ul.stack {
+    margin: 0 0 0 2rem;
+}
+ul.stack li {
+    list-style-type: square;
+}
