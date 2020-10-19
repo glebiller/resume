@@ -42,7 +42,7 @@ body a {
 }
 
 ul.stack {
-    margin: 0 0 0 2rem;
+    margin: 1rem 0 0 2rem;
 }
 ul.stack li {
     list-style-type: square;
