@@ -47,6 +47,10 @@ html {
     border-bottom: 1px solid #A4A4A4;
 }
 
+.card-header .avatar img {
+    width: 80px;
+    margin-top: -40px;
+}
 .small-chip {
     font-size: 50%;
 }

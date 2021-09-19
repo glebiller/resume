@@ -1,1 +1,4 @@
+.idea
+*.iml
 Thumbs.db
+.DS_Store

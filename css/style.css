@@ -1,32 +1,54 @@
-body a {
-    color: #ff3d00;
+html {
+    font-family: Helvetica, sans-serif;
+}
+body {
+    background: url("/resume/img/pexels-ignacio-palés-2882603.png") no-repeat center top !important;
 }
 
-.card-header {
-    padding: 20px;
-    border-radius: 2px 2px 0 0;
-    background: url(../img/bg3.jpg);
-    background-size: cover;
+.container > .row {
+    padding-top: 8rem;
+}
+
+.card-header .avatar {
+    margin-bottom: 0;
+}
+.card-header .avatar img {
+    margin-top: -60px;
 }
 .card-header .card-title {
     font-size: 2.125rem;
 }
-
-.profile-item-icon {
-    font-size: 1.64rem;
-    line-height: 110%;
-    margin: 0.82rem 0 0.656rem 0;
+.card-header .quote {
+    font-size: 0.80rem;
+    font-weight: lighter;
 }
 
-.section-icon {
-    font-size: 2.92rem;
-    line-height: 110%;
-    margin: 1.46rem 0 1.168rem 0;
-    font-weight: 400;
+.card-content a {
 }
 
-.work-location {
-    font-size: 1rem;
+.card-panel {
+    padding: 24px 36px;
+    text-align: justify;
+}
+.card-panel .h4:first-child {
+    margin-top: 0;
+}
+
+.card-content .icon {
+    #font-size: 200%;
+    margin: 0 2rem;
+    display: inline-flex;
+    vertical-align: middle;
+    width: 1.5rem;
+}
+
+.card-content .skills {
+    padding-top: 1rem;
+    text-align: center;
+}
+.card-content .skills img {
+    width: 2rem;
+    margin: 0 0.5rem;
 }
 
 .small-chip {
@@ -35,15 +57,4 @@ body a {
     font-size: 0.6875rem;
     padding: 0 0.75rem;
     margin-bottom: 0px;
-}
-
-.author {
-    font-size: 75%;
-}
-
-ul.stack {
-    margin: 1rem 0 0 2rem;
-}
-ul.stack li {
-    list-style-type: square;
 }
