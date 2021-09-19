@@ -1,6 +1,7 @@
 html {
     font-family: Helvetica, sans-serif;
 }
+
 body {
     background: url("/img/pexels-ignacio-palés-2882603.png") no-repeat center top !important;
 }
@@ -56,5 +57,16 @@ body {
     line-height: 1.125rem;
     font-size: 0.6875rem;
     padding: 0 0.75rem;
-    margin-bottom: 0px;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 993px) {
+    html {
+        font-size: 28px;
+    }
+}
+@media only screen and (max-width: 993px) {
+    html {
+        font-size: 28px;
+    }
 }
