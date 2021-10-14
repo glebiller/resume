@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url("/img/pexels-ignacio-palés-2882603.png") no-repeat center top !important;
+    background: url("/resume/img/pexels-ignacio-palés-2882603.png") no-repeat center top !important;
 }
 
 .container > .row {
@@ -17,21 +17,30 @@ body {
     margin-top: -60px;
 }
 .card-header .card-title {
-    font-size: 2.125rem;
+    font-size: 2.8rem;
 }
 .card-header .quote {
-    font-size: 0.80rem;
+    font-size: 1rem;
     font-weight: lighter;
 }
-
-.card-content a {
-}
-
 .card-panel {
     padding: 24px 36px;
     text-align: justify;
 }
-.card-panel .h4:first-child {
+.work-history h4:first-child {
+    margin-top: 0;
+}
+.work-history h4 {
+    margin-bottom: 0;
+    font-size: 2.5rem;
+}
+.work-history {
+    font-size: 1.4rem;
+}
+.work-history p {
+    margin-bottom: 0;
+}
+.work-history ul {
     margin-top: 0;
 }
 
@@ -43,13 +52,19 @@ body {
     width: 1.5rem;
 }
 
-.card-content .skills {
-    padding-top: 1rem;
+.card-panel .skills {
+    margin: 0;
     text-align: center;
 }
-.card-content .skills img {
+.card-panel .skills img {
     width: 2rem;
     margin: 0 0.5rem;
+    vertical-align:middle
+}
+
+.work-material p {
+    font-size: 1.4rem;
+    margin: 0;
 }
 
 .small-chip {
